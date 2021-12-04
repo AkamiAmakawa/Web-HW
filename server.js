@@ -40,4 +40,4 @@ app.get("/update_info", ((req, res) => {
 app.get("*", ((req, res) => {
     res.render("list")
 }))
-app.listen(80)
+app.listen(3000)
